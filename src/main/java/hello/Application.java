@@ -1,3 +1,5 @@
+// Copyright (c) 2013 GoPivotal, Inc. All Rights Reserved
+
 package hello;
 
 import org.springframework.amqp.core.Binding;

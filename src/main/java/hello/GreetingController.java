@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+// Copyright (c) 2013 GoPivotal, Inc. All Rights Reserved
 @RestController
 public class GreetingController {
 

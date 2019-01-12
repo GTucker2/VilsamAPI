@@ -1,3 +1,5 @@
+// Copyright (c) 2013 GoPivotal, Inc. All Rights Reserved
+
 package hello;
 
 public class Greeting {
@@ -13,7 +15,7 @@ public class Greeting {
     public long getId() {
         return id;
     } 
-    
+
     public String getContent() {
         return content;
     }
