@@ -17,7 +17,7 @@ public class DeviceController {
                          @RequestParam(value="supportedCommands", required=true) byte deviceCommands) {
         long deviceId = counter.incrementAndGet();
         String deviceName = name; 
-        if (name == null) deviceName = String.format(nameTemplate, id);
+        if (name == null) deviceName = String.format(nameTemplate, deviceId);
         return new Device(deviceId, deviceName, deviceType, deviceCommands);
     }
 }
